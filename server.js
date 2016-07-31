@@ -11,35 +11,56 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 var characters = [
 
 	{
-		routeName: "yoda",
-		name:"yoda",
-    photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+		
+		name:"SuperMan",
+    photo:"http://www.animatedimages.org/data/media/1579/animated-superman-image-0006.gif",
     scores:[
      5,
+     5,
+     4,
+     3,
      1,
-     4
+     4,
+     5,
+     1,
+     1,
+     1
    ]
 	},
 
 	{
-		routeName: "car",
-		name:"car",
-    photo:"http://oi47.tinypic.com/6t1esg.jpg",
+		
+		name:"IronMan",
+    photo:"http://x.annihil.us/u/prod/marvel/i/mg/7/10/4bc45e96b7980.jpg",
     scores:[
+     4,
+     3,
+     5,
+     5,
      1,
      5,
-     1
+     2,
+     5,
+     1,
+     5
    ]	
 	},
 
 	{
-		routeName: "Brad Pitt",
-		name:"Brad Pitt",
-    photo:"https://s-media-cache-ak0.pinimg.com/236x/42/29/17/4229178045bad6d6f5f47efc6ec8b0c9.jpg",
+	
+		name:"DeadPool",
+    photo:"http://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/article_main_wide_image/public/deadpool_lead_4.jpg?itok=czdVRMnH",
     scores:[
+     1,
+     1,
+     1,
+     5,
+     5,
      2,
-     3,
-     4
+     4,
+     5,
+     1,
+     1
    ]
 	}
 ]

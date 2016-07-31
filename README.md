@@ -1,2 +1,3 @@
-# FriendFinder
-App that find you the best match!
+# SuperHear Match 
+
+A short Survey tells you which superhero you are.
