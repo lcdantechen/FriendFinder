@@ -55,9 +55,17 @@ app.get('/', function(req, res){
 app.post('/api/friends', function(req, res){
 
 	var newcharacter = req.body;
-	/*newcharacter.routeName = newcharacter.name.replace(/\s+/g, '').toLowerCase()
-*/
-	console.log(newcharacter);
+	console.log(newcharacter.scores);
+  var userScore = [];
+	for (var i=0 ; i<newcharacter.scores.length; i++) {
+		var eachScore = parseInt(newcharacter.scores[i]);
+		userScore.push(eachScore);
+	}
+	console.log(userScore);
+	var userInventory = 
+	/*var difference;
+	difference = */
+
 
 	characters.push(newcharacter);
 
