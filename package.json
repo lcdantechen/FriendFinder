@@ -1,0 +1,28 @@
+{
+  "name": "heromatch",
+  "version": "1.0.0",
+  "description": "find the hero you belong",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "chen",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcdantechen/FriendFinder.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "author": "chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcdantechen/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/lcdantechen/FriendFinder#readme"
+}
